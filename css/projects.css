@@ -4,6 +4,15 @@
   width: 300px;
 }
 
+*{
+  margin: 0;
+
+}
+
+.navbar{
+  margin: none;
+}
+
 .tile {
 	display: inline-block;
 	width: 30%;
@@ -17,4 +26,15 @@
 .tile img	{
 	display: block;
 	margin: 0 auto;
+}
+
+@media screen (max-width: 250px) {
+    .tile {
+      width: 50%;
+      border-radius: 100%;
+    }
+
+    .screenshot{
+      width: 100%;
+    }
 }
