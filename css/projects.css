@@ -18,3 +18,21 @@
 	display: block;
 	margin: 0 auto;
 }
+
+@media screen and (max-width: 500px) {
+  #tile1{
+    width: 400px;
+    height: 600px;
+    float: left;
+  }
+  #tile2{
+    width: 400px;
+    height: 600px;
+    float: left;
+  }
+  #tile3{
+    width: 400px;
+    height: 600px;
+    float: left;
+  }
+}

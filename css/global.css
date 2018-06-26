@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 
 h1,h4 {
   color:#E13A63;
