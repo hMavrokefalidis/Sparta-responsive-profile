@@ -21,19 +21,16 @@
 
 @media screen and (max-width: 500px) {
   #tile1{
-    background-color: red;
     width: 400px;
     height: 600px;
     float: left;
   }
   #tile2{
-    background-color: yellow;
     width: 400px;
     height: 600px;
     float: left;
   }
   #tile3{
-    background-color: blue;
     width: 400px;
     height: 600px;
     float: left;
