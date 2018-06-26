@@ -4,15 +4,6 @@
   width: 300px;
 }
 
-*{
-  margin: 0;
-
-}
-
-.navbar{
-  margin: none;
-}
-
 .tile {
 	display: inline-block;
 	width: 30%;
@@ -28,13 +19,23 @@
 	margin: 0 auto;
 }
 
-@media screen (max-width: 250px) {
-    .tile {
-      width: 50%;
-      border-radius: 100%;
-    }
-
-    .screenshot{
-      width: 100%;
-    }
+@media screen and (max-width: 500px) {
+  #tile1{
+    background-color: red;
+    width: 400px;
+    height: 600px;
+    float: left;
+  }
+  #tile2{
+    background-color: yellow;
+    width: 400px;
+    height: 600px;
+    float: left;
+  }
+  #tile3{
+    background-color: blue;
+    width: 400px;
+    height: 600px;
+    float: left;
+  }
 }

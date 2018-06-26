@@ -19,6 +19,8 @@ header, section {
 	border: 2px solid #E13A63;
 }
 
+
+
 .experience {
 	display: inline-block;
 	clear: both;
@@ -29,4 +31,10 @@ header, section {
 header, .experience {
 	border: 2px solid #E13A63;
 	padding: 10px;
+}
+
+@media screen (max-width: 500px){
+	.right{
+		display: block;
+	}
 }
